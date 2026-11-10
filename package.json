@@ -1,0 +1,13 @@
+{
+  "name": "doctor-tracker-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:api": "cd doctor-tracker-api && npm run dev",
+    "dev:web": "cd doctor-tracker-web && npm run dev",
+    "build:api": "cd doctor-tracker-api && npm run build",
+    "build:web": "cd doctor-tracker-web && npm run build",
+    "seed": "cd doctor-tracker-api && npm run seed",
+    "explain": "cd doctor-tracker-api && npm run explain"
+  }
+}
